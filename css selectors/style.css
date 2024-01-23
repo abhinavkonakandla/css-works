@@ -1,0 +1,28 @@
+body{
+    color: white;
+}
+/* 
+different types of selectors
+1. normal html elements.
+2. class elements(we put '.' for classes while writing css)
+3. id  (we put '#' for id's while using in the css
+4.grouping selector
+eg: 
+h1,h2{
+// we can style the h1 and h2 elements in the same way.
+}
+*/
+#abhinav{
+    color: blueviolet;
+}
+.para{
+    background-color: black;
+    width: 50%;
+    height: 70%;
+    font-size: larger;
+    color: aquamarine;
+}
+
+p span{
+    color: white;
+}
