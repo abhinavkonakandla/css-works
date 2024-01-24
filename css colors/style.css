@@ -1,0 +1,14 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    background-color: bisque;
+    /*color: brown;*/
+    color: rgb(0,0,0);/* another way of representing the color property.*/
+}
+
+p{
+    /*color: rgba(0,0,0, 0.5);
+    /* here a represents the alpha value is related to the opacity of the text
+     it looks so pale or light .*/
+     
+}

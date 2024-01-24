@@ -1,0 +1,14 @@
+P{
+    font-size: 20px;
+    /*
+    SOME OTHER FONT PROPERTIES
+    1px -1/9th of an inch.(usually for browser the default size of text is 16px).
+    1rem - it's value equal to the 16px.
+    1em - it's value equal to the 16px. it is relative to the parents font size.
+    */
+}
+
+h1{
+    border: 5px solid black;
+    width: 100%;     
+}
