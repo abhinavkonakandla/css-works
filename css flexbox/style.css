@@ -1,0 +1,50 @@
+.flex-container{
+    display: flex;
+    background-color: blue;
+    margin: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container  div{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+
+/*
+  -->flex-direction represents that all flex items 
+  want to be in which position.(column or row).
+
+  -->in flex-direction there is one item called 
+  column-reverse it reverses the column in vertical 
+  direction. (1 2 3 shows as 3 2 1).
+
+  -->row is same as default all the flex items shown in the 
+  row wise direction.
+
+  -->flex-wrap property is another type in flexbox.
+  // wrap is one property this helps to wrap all the
+   flex items in the flexbox(it will be adjusted 
+   according to the window size).
+   -->nowrap is opposite to the wrap.
+   --> wrap reverse as same as the column reverse.
+
+   -->flex-flow property is to represent the both 
+   flex-direction and wrap properties in one.
+
+   -->justify-content property is useful to modify the 
+   text or flex-items inside the flexbox(flex-start,center etc.).
+   
+   -->The difference between align-items and justify-content 
+   is 
+   align-items -vertically aligns the flex-items
+   justify-content - horizantally aligns the flex items.
+
+*/
+
+
+
