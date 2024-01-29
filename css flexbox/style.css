@@ -47,4 +47,26 @@
 */
 
 
+.flex-container1{
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+    
+}
+.flex-container1 div{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+
 
