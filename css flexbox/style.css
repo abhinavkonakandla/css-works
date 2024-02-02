@@ -1,4 +1,4 @@
-.flex-container{
+/*.flex-container{
     display: flex;
     background-color: blue;
     margin: 80px;
@@ -13,7 +13,7 @@
     font-size: 30px;
     margin: 10px;
     
-}
+}*/
 
 /*
   -->flex-direction represents that all flex items 
@@ -45,28 +45,31 @@
    justify-content - horizantally aligns the flex items.
 
 */
+div{
+    height: 200px;
+    width: 200px;
+}
 
-
-.flex-container1{
+#one{
+    background-color: aqua;
+    border: 10px solid black;
+    padding: 20px;
+}
+#two{
     background-color: tomato;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin-left: 260px;
+    border: solid black;
+    border-width: 20px 10px;
 }
-h1{
-    justify-content: center;
-    text-align: center;
-    background-color: black;
-    color: white;
-    
-    
+#t{
+    background-color: darkgoldenrod;
+    border: 10px solid black;
+    margin-left: 40px;
 }
-.flex-container1 div{
-    padding: 10px;
-    margin: 10px;
-    
-}
+
+
+
+
 
 
 
