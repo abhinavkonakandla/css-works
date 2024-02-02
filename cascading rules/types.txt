@@ -18,12 +18,12 @@ we can specify with 4 types of selectors.
 here also same the least one takes priority.
 id will take action and appears on screeno.
 
-type of css file
--->external - third prioritu
--->internal - 2nd prioritu
+3.type of css file
+-->external - third priority.
+-->internal - 2nd priority.
 -->inline - 1st priority.
 
-importance keyword
+4.importance keyword
 
 --> if we mention any importance keyword in the css property
 it says that it is important other than any elements (whether)
