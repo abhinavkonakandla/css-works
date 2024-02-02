@@ -1,0 +1,40 @@
+1.position
+  eg:
+  li{
+    color:red;
+    color:blue;
+  }
+  we see the blue color on the screen.
+  least one takes more priority.
+
+2.specificity
+
+we can specify with 4 types of selectors.
+
+-->element
+-->class
+-->id
+
+here also same the least one takes priority.
+id will take action and appears on screeno.
+
+type of css file
+-->external - third prioritu
+-->internal - 2nd prioritu
+-->inline - 1st priority.
+
+importance keyword
+
+--> if we mention any importance keyword in the css property
+it says that it is important other than any elements (whether)
+it is inline or external or it can be anything.
+
+p{
+    color: white !important; //adding the important keyword to the css property.
+}
+
+the above all are the cascading style sheet rules it mainly works on these 4 aspects
+1.position
+2.specificity.
+3.type.
+4.important.
