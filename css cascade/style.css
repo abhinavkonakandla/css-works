@@ -21,3 +21,53 @@ p {
 #outer-box{
   border: 10px solid brown;
 }
+/*
+combining the css sel;ectors.
+
+--->if we want to apply same color for more than one elements.
+h1, h2{
+  color: blue; //here both h1 and h2 gets color blue
+}
+
+--->if we want to apply css style to the descendant of any element.
+we can use '>' symbol.
+
+<div class='one'>
+<p>    </p>
+<h1>   </h2>
+
+</div>
+suppose if we want to apply css to the p we can specify like this
+.one > p{
+
+}// the elements in the place of p needs to be immediate 
+descendant of that div. or class or id.
+
+--->if we need to apply css to the grand children 
+<div class='one'>
+<p>    </p>
+<h1>   </h2>
+
+</div>
+
+we can specify like this 
+.one h1{
+
+}// the h1 is grandchildren of that class.
+chaining selectors:
+chaining selectors is a method to add styles for particular 
+elements.
+chaining selectors is nothing but writing all the classes,
+id's, elements without giving space.
+
+while specifying the css at first we need to mention the elements what element we are looking 
+to change.
+
+li.none#one{
+  // it says that we are looking to modify li which had 
+  .none as class and #one it's id.
+  for that particular element it modifies the css style.
+  
+}
+
+*/
