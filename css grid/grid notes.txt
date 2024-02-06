@@ -1,0 +1,57 @@
+Grid sizing 
+
+There are 6 types of Grid methods that we can apply.
+
+1.fixed size grid:
+
+non responsive 
+we need to fix the values of rows and columns 
+
+.container{
+    grid-template-columns: 100px->col1 height 200px->col2  size;
+      grid-template-rows: // same as the column we need to specify for the rows.
+
+}
+
+2.auto sizing grid:
+
+it isa also no responsive 
+it takes auto value as it occupies 
+the 100% width.
+
+.container{
+    grid-template-columns: 100px->col height auto // it takes the complete web pagefor 2nd col. ;
+      grid-template-rows: // same as the column we need to specify for the rows.
+
+}
+
+3.fraction sizing grid:
+
+responsive 
+it takes the half of the size from the next one 
+
+.container{
+    grid-template-columns: 1fr 2fr //col1 takes half of the size from col2 size ;
+      grid-template-rows: // same as the column we need to specify for the rows.
+}
+
+4.minmax size grid:
+sometimes we dont need much horizantal space but sometimes we need it.
+so, here we can give the limit min value and max value until that min value 
+it will become responsive .
+.container{
+grid-template-columns: 100px minmax(200px,800px) -> what it says is the 2nd column takes 800px whenever it wants 
+                       and it will become responsive upto 200px ;
+      grid-template-rows: // same as the column we need to specify for the rows.
+}
+
+5.// here in this grid concept we have repeat function where it will repeat the same thing 
+as many times we want.
+
+
+syntax
+repeat(10, 100px)
+10 - it represents how many times we want 
+100px - size of the respecticve item.
+
+6.
