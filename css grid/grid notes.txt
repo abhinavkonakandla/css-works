@@ -1,5 +1,5 @@
 Grid sizing 
-
+----------------------
 There are 6 types of Grid methods that we can apply.
 
 1.fixed size grid:
@@ -54,4 +54,5 @@ repeat(10, 100px)
 10 - it represents how many times we want 
 100px - size of the respecticve item.
 
-6.
+grid placement
+----------------------
